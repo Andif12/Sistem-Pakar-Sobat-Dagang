@@ -320,6 +320,27 @@ class PelaporanController extends Controller
         $stokAwal = $request->stok;
         $penyaluran = $request->penyaluran;
         $stokAkhir = $stokAwal - $penyaluran;
+        
+        // Ambil data toko
+        $toko = Toko::find($request->id_toko);
+
+        if ($toko) {
+            // Ambil data rencana berdasarkan id_rancangan dan tahun
+            $rencana = RencanaKebutuhanDistributor::where('id_rancangan', $toko->id_rancangan)
+                ->where('tahun', $tanggalInput->year)
+                ->first();
+
+            if ($rencana) {
+                if ($penyaluran > $rencana->jumlah) {
+                    return redirect()->route('pelaporan.showDataDistribusi', ['id_toko' => $request->id_toko])
+                        ->with('error', 'Jumlah penyaluran melebihi rencana kebutuhan yang tersedia.');
+                }
+
+                // Kurangi jumlah jika valid
+                $rencana->jumlah = $rencana->jumlah - $penyaluran;
+                $rencana->save();
+            }
+        }
 
         // Simpan ke database
         StokOpname::create([
