@@ -34,6 +34,7 @@ use App\Mail\RegisterVerificationMail;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Http\Request;
 use App\Models\User;
+use App\Http\Controllers\RekomendasiController;
 
 Route::get('/verifikasi-akun', function (Request $request) {
     $user = User::where('verifikasi_token', $request->token)->first();
@@ -126,6 +127,9 @@ Route::middleware(['auth.role:user'])->group(function () {
     Route::get('/bidang-perdagangan/riwayat-surat', [dashboardPerdaganganController::class, 'riwayatSurat'])->name('bidangPerdagangan.riwayatSurat');
     Route::post('/bidang-perdagangan/ajukan-permohonan', [dashboardPerdaganganController::class, 'ajukanPermohonan'])->name('ajukanPermohonan_perdagangan');
 
+    // Route::get('/rekomendasi/view', [RekomendasiController::class, 'formView']);
+    // Route::post('/rekomendasi/hitung', [RekomendasiController::class, 'hitungRekomendasi']);
+    Route::get('/rekomendasi/view', [RekomendasiController::class, 'tampilOtomatis']);
     // Metrologi
     Route::get('/administrasi-metrologi', [PersuratanController::class, 'showAdministrasiMetrologi'])->name('administrasi-metrologi');
     Route::post('/store-surat', [PersuratanController::class, 'storeSuratMetrologi'])->name('proses-surat-metrologi');
