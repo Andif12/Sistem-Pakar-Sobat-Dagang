@@ -1,0 +1,902 @@
+[
+  {
+    "nama_usaha": "UD. Mandiri 7",
+    "nama_pemilik": "Ari Hidayat",
+    "produk": "Pangan",
+    "tk_l": 3,
+    "tk_p": 19,
+    "kecamatan": "Bacukiki",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "UD. Maju Jaya 42",
+    "nama_pemilik": "Eka Saputra",
+    "produk": "Logam & Elektronika",
+    "tk_l": 2,
+    "tk_p": 11,
+    "kecamatan": "Bacukiki",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Maju Jaya 15",
+    "nama_pemilik": "Budi Wulandari",
+    "produk": "Sandang",
+    "tk_l": 16,
+    "tk_p": 8,
+    "kecamatan": "Soreang",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "CV. Sinar Abadi 7",
+    "nama_pemilik": "Sari Pratama",
+    "produk": "Logam & Elektronika",
+    "tk_l": 10,
+    "tk_p": 5,
+    "kecamatan": "Soreang",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "PT. Karya Sejahtera 16",
+    "nama_pemilik": "Joko Saputra",
+    "produk": "Kerajinan",
+    "tk_l": 3,
+    "tk_p": 4,
+    "kecamatan": "Bacukiki",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "CV. Sinar Abadi 8",
+    "nama_pemilik": "Eka Yulianto",
+    "produk": "Kimia & Bahan Bangunan",
+    "tk_l": 17,
+    "tk_p": 7,
+    "kecamatan": "Soreang",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 36",
+    "nama_pemilik": "Dewi Hidayat",
+    "produk": "Sandang",
+    "tk_l": 18,
+    "tk_p": 5,
+    "kecamatan": "Bacukiki",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "PT. Karya Sejahtera 32",
+    "nama_pemilik": "Budi Hidayat",
+    "produk": "Pangan",
+    "tk_l": 2,
+    "tk_p": 19,
+    "kecamatan": "Ujung",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "CV. Sumber Rezeki 19",
+    "nama_pemilik": "Sari Setiawan",
+    "produk": "Sandang",
+    "tk_l": 15,
+    "tk_p": 17,
+    "kecamatan": "Bacukiki",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 47",
+    "nama_pemilik": "Rina Sari",
+    "produk": "Logam & Elektronika",
+    "tk_l": 14,
+    "tk_p": 7,
+    "kecamatan": "Bacukiki Barat",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 25",
+    "nama_pemilik": "Rahmad Setiawan",
+    "produk": "Pangan",
+    "tk_l": 14,
+    "tk_p": 6,
+    "kecamatan": "Bacukiki",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "CV. Sumber Rezeki 11",
+    "nama_pemilik": "Rahmad Setiawan",
+    "produk": "Kerajinan",
+    "tk_l": 15,
+    "tk_p": 17,
+    "kecamatan": "Soreang",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 1",
+    "nama_pemilik": "Rina Hidayat",
+    "produk": "Kimia & Bahan Bangunan",
+    "tk_l": 1,
+    "tk_p": 8,
+    "kecamatan": "Bacukiki Barat",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 13",
+    "nama_pemilik": "Eka Yulianto",
+    "produk": "Logam & Elektronika",
+    "tk_l": 20,
+    "tk_p": 7,
+    "kecamatan": "Soreang",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 15",
+    "nama_pemilik": "Rahmad Wulandari",
+    "produk": "Logam & Elektronika",
+    "tk_l": 1,
+    "tk_p": 20,
+    "kecamatan": "Ujung",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 3",
+    "nama_pemilik": "Sari Rohmat",
+    "produk": "Logam & Elektronika",
+    "tk_l": 17,
+    "tk_p": 1,
+    "kecamatan": "Soreang",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "CV. Sinar Abadi 38",
+    "nama_pemilik": "Ari Pratama",
+    "produk": "Logam & Elektronika",
+    "tk_l": 13,
+    "tk_p": 15,
+    "kecamatan": "Soreang",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "PT. Karya Sejahtera 19",
+    "nama_pemilik": "Budi Wijaya",
+    "produk": "Pangan",
+    "tk_l": 5,
+    "tk_p": 20,
+    "kecamatan": "Bacukiki",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 4",
+    "nama_pemilik": "Dewi Sari",
+    "produk": "Sandang",
+    "tk_l": 8,
+    "tk_p": 6,
+    "kecamatan": "Soreang",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 41",
+    "nama_pemilik": "Rahmad Putri",
+    "produk": "Pangan",
+    "tk_l": 3,
+    "tk_p": 14,
+    "kecamatan": "Soreang",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "CV. Sinar Abadi 1",
+    "nama_pemilik": "Eka Wulandari",
+    "produk": "Sandang",
+    "tk_l": 20,
+    "tk_p": 12,
+    "kecamatan": "Ujung",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 43",
+    "nama_pemilik": "Sari Yulianto",
+    "produk": "Logam & Elektronika",
+    "tk_l": 2,
+    "tk_p": 1,
+    "kecamatan": "Soreang",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 25",
+    "nama_pemilik": "Dewi Wijaya",
+    "produk": "Kerajinan",
+    "tk_l": 8,
+    "tk_p": 9,
+    "kecamatan": "Bacukiki",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "CV. Sinar Abadi 21",
+    "nama_pemilik": "Joko Hidayat",
+    "produk": "Kerajinan",
+    "tk_l": 10,
+    "tk_p": 11,
+    "kecamatan": "Ujung",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "CV. Sinar Abadi 41",
+    "nama_pemilik": "Rina Putri",
+    "produk": "Kerajinan",
+    "tk_l": 12,
+    "tk_p": 9,
+    "kecamatan": "Bacukiki",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "CV. Sinar Abadi 9",
+    "nama_pemilik": "Eka Saputra",
+    "produk": "Sandang",
+    "tk_l": 16,
+    "tk_p": 4,
+    "kecamatan": "Bacukiki Barat",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "CV. Sinar Abadi 26",
+    "nama_pemilik": "Dewi Yulianto",
+    "produk": "Kerajinan",
+    "tk_l": 14,
+    "tk_p": 8,
+    "kecamatan": "Bacukiki",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 5",
+    "nama_pemilik": "Ari Yulianto",
+    "produk": "Sandang",
+    "tk_l": 13,
+    "tk_p": 5,
+    "kecamatan": "Ujung",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "CV. Sinar Abadi 44",
+    "nama_pemilik": "Ari Hidayat",
+    "produk": "Kimia & Bahan Bangunan",
+    "tk_l": 19,
+    "tk_p": 17,
+    "kecamatan": "Ujung",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "CV. Sumber Rezeki 29",
+    "nama_pemilik": "Dewi Hidayat",
+    "produk": "Kerajinan",
+    "tk_l": 15,
+    "tk_p": 13,
+    "kecamatan": "Bacukiki Barat",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Maju Jaya 26",
+    "nama_pemilik": "Ahmad Pratama",
+    "produk": "Logam & Elektronika",
+    "tk_l": 15,
+    "tk_p": 15,
+    "kecamatan": "Ujung",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 19",
+    "nama_pemilik": "Rahmad Wulandari",
+    "produk": "Sandang",
+    "tk_l": 18,
+    "tk_p": 11,
+    "kecamatan": "Ujung",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 32",
+    "nama_pemilik": "Joko Hidayat",
+    "produk": "Sandang",
+    "tk_l": 10,
+    "tk_p": 8,
+    "kecamatan": "Ujung",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "PT. Karya Sejahtera 44",
+    "nama_pemilik": "Ahmad Wijaya",
+    "produk": "Kimia & Bahan Bangunan",
+    "tk_l": 14,
+    "tk_p": 10,
+    "kecamatan": "Bacukiki Barat",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "CV. Sumber Rezeki 37",
+    "nama_pemilik": "Rina Putri",
+    "produk": "Logam & Elektronika",
+    "tk_l": 14,
+    "tk_p": 9,
+    "kecamatan": "Ujung",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 31",
+    "nama_pemilik": "Ahmad Saputra",
+    "produk": "Sandang",
+    "tk_l": 11,
+    "tk_p": 5,
+    "kecamatan": "Bacukiki Barat",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 31",
+    "nama_pemilik": "Rina Wijaya",
+    "produk": "Kimia & Bahan Bangunan",
+    "tk_l": 2,
+    "tk_p": 5,
+    "kecamatan": "Soreang",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Maju Jaya 17",
+    "nama_pemilik": "Ari Yulianto",
+    "produk": "Pangan",
+    "tk_l": 5,
+    "tk_p": 7,
+    "kecamatan": "Bacukiki Barat",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 49",
+    "nama_pemilik": "Dewi Saputra",
+    "produk": "Kerajinan",
+    "tk_l": 13,
+    "tk_p": 1,
+    "kecamatan": "Bacukiki",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 31",
+    "nama_pemilik": "Budi Hidayat",
+    "produk": "Sandang",
+    "tk_l": 9,
+    "tk_p": 13,
+    "kecamatan": "Soreang",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "UD. Maju Jaya 40",
+    "nama_pemilik": "Ahmad Setiawan",
+    "produk": "Logam & Elektronika",
+    "tk_l": 20,
+    "tk_p": 11,
+    "kecamatan": "Ujung",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "CV. Sinar Abadi 2",
+    "nama_pemilik": "Indah Rohmat",
+    "produk": "Kimia & Bahan Bangunan",
+    "tk_l": 10,
+    "tk_p": 16,
+    "kecamatan": "Bacukiki",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Maju Jaya 14",
+    "nama_pemilik": "Dewi Wulandari",
+    "produk": "Logam & Elektronika",
+    "tk_l": 8,
+    "tk_p": 3,
+    "kecamatan": "Soreang",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "PT. Karya Sejahtera 48",
+    "nama_pemilik": "Indah Hidayat",
+    "produk": "Sandang",
+    "tk_l": 19,
+    "tk_p": 20,
+    "kecamatan": "Ujung",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 32",
+    "nama_pemilik": "Rahmad Wulandari",
+    "produk": "Logam & Elektronika",
+    "tk_l": 13,
+    "tk_p": 16,
+    "kecamatan": "Bacukiki Barat",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Maju Jaya 30",
+    "nama_pemilik": "Rina Yulianto",
+    "produk": "Pangan",
+    "tk_l": 4,
+    "tk_p": 0,
+    "kecamatan": "Soreang",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "PT. Karya Sejahtera 43",
+    "nama_pemilik": "Ahmad Hidayat",
+    "produk": "Kimia & Bahan Bangunan",
+    "tk_l": 19,
+    "tk_p": 9,
+    "kecamatan": "Bacukiki Barat",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "CV. Sinar Abadi 49",
+    "nama_pemilik": "Eka Rohmat",
+    "produk": "Kimia & Bahan Bangunan",
+    "tk_l": 20,
+    "tk_p": 0,
+    "kecamatan": "Bacukiki Barat",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "UD. Maju Jaya 8",
+    "nama_pemilik": "Budi Wijaya",
+    "produk": "Sandang",
+    "tk_l": 19,
+    "tk_p": 13,
+    "kecamatan": "Ujung",
+    "level": "Menengah"
+  },
+{
+    "nama_usaha": "UD. Mandiri 36",
+    "nama_pemilik": "Ari Wulandari",
+    "produk": "Kerajinan",
+    "tk_l": 13,
+    "tk_p": 5,
+    "kecamatan": "Soreang",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "CV. Sinar Abadi 47",
+    "nama_pemilik": "Rahmad Sari",
+    "produk": "Logam & Elektronika",
+    "tk_l": 3,
+    "tk_p": 0,
+    "kecamatan": "Ujung",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 20",
+    "nama_pemilik": "Ari Pratama",
+    "produk": "Logam & Elektronika",
+    "tk_l": 9,
+    "tk_p": 6,
+    "kecamatan": "Bacukiki",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "UD. Maju Jaya 3",
+    "nama_pemilik": "Sari Yulianto",
+    "produk": "Sandang",
+    "tk_l": 6,
+    "tk_p": 11,
+    "kecamatan": "Bacukiki",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "CV. Sumber Rezeki 6",
+    "nama_pemilik": "Indah Putri",
+    "produk": "Pangan",
+    "tk_l": 12,
+    "tk_p": 16,
+    "kecamatan": "Bacukiki Barat",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Maju Jaya 35",
+    "nama_pemilik": "Rina Setiawan",
+    "produk": "Logam & Elektronika",
+    "tk_l": 10,
+    "tk_p": 17,
+    "kecamatan": "Bacukiki Barat",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "CV. Sinar Abadi 44",
+    "nama_pemilik": "Eka Wijaya",
+    "produk": "Kerajinan",
+    "tk_l": 11,
+    "tk_p": 1,
+    "kecamatan": "Ujung",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 28",
+    "nama_pemilik": "Dewi Sari",
+    "produk": "Kerajinan",
+    "tk_l": 1,
+    "tk_p": 19,
+    "kecamatan": "Bacukiki Barat",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "PT. Karya Sejahtera 30",
+    "nama_pemilik": "Eka Wulandari",
+    "produk": "Pangan",
+    "tk_l": 7,
+    "tk_p": 3,
+    "kecamatan": "Bacukiki Barat",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "PT. Karya Sejahtera 29",
+    "nama_pemilik": "Joko Putri",
+    "produk": "Kerajinan",
+    "tk_l": 9,
+    "tk_p": 10,
+    "kecamatan": "Soreang",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 45",
+    "nama_pemilik": "Dewi Putri",
+    "produk": "Kimia & Bahan Bangunan",
+    "tk_l": 9,
+    "tk_p": 17,
+    "kecamatan": "Bacukiki Barat",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "CV. Sinar Abadi 12",
+    "nama_pemilik": "Ari Setiawan",
+    "produk": "Logam & Elektronika",
+    "tk_l": 15,
+    "tk_p": 18,
+    "kecamatan": "Bacukiki Barat",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "CV. Sinar Abadi 20",
+    "nama_pemilik": "Sari Putri",
+    "produk": "Sandang",
+    "tk_l": 10,
+    "tk_p": 15,
+    "kecamatan": "Soreang",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "PT. Karya Sejahtera 42",
+    "nama_pemilik": "Ahmad Sari",
+    "produk": "Logam & Elektronika",
+    "tk_l": 5,
+    "tk_p": 6,
+    "kecamatan": "Soreang",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "PT. Karya Sejahtera 17",
+    "nama_pemilik": "Budi Yulianto",
+    "produk": "Kimia & Bahan Bangunan",
+    "tk_l": 19,
+    "tk_p": 0,
+    "kecamatan": "Bacukiki",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "CV. Sinar Abadi 14",
+    "nama_pemilik": "Rahmad Pratama",
+    "produk": "Kimia & Bahan Bangunan",
+    "tk_l": 16,
+    "tk_p": 13,
+    "kecamatan": "Ujung",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 31",
+    "nama_pemilik": "Budi Wulandari",
+    "produk": "Kerajinan",
+    "tk_l": 4,
+    "tk_p": 17,
+    "kecamatan": "Soreang",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 11",
+    "nama_pemilik": "Ahmad Saputra",
+    "produk": "Kerajinan",
+    "tk_l": 14,
+    "tk_p": 0,
+    "kecamatan": "Soreang",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Maju Jaya 13",
+    "nama_pemilik": "Budi Rohmat",
+    "produk": "Logam & Elektronika",
+    "tk_l": 5,
+    "tk_p": 17,
+    "kecamatan": "Ujung",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 17",
+    "nama_pemilik": "Joko Wijaya",
+    "produk": "Sandang",
+    "tk_l": 20,
+    "tk_p": 3,
+    "kecamatan": "Ujung",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "CV. Sinar Abadi 1",
+    "nama_pemilik": "Budi Hidayat",
+    "produk": "Kerajinan",
+    "tk_l": 10,
+    "tk_p": 7,
+    "kecamatan": "Bacukiki Barat",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 17",
+    "nama_pemilik": "Dewi Saputra",
+    "produk": "Logam & Elektronika",
+    "tk_l": 7,
+    "tk_p": 12,
+    "kecamatan": "Bacukiki",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "UD. Maju Jaya 48",
+    "nama_pemilik": "Rina Rohmat",
+    "produk": "Sandang",
+    "tk_l": 8,
+    "tk_p": 10,
+    "kecamatan": "Ujung",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Maju Jaya 49",
+    "nama_pemilik": "Ari Putri",
+    "produk": "Kerajinan",
+    "tk_l": 18,
+    "tk_p": 3,
+    "kecamatan": "Soreang",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "CV. Sumber Rezeki 50",
+    "nama_pemilik": "Ari Pratama",
+    "produk": "Sandang",
+    "tk_l": 9,
+    "tk_p": 17,
+    "kecamatan": "Soreang",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Maju Jaya 39",
+    "nama_pemilik": "Rahmad Hidayat",
+    "produk": "Logam & Elektronika",
+    "tk_l": 18,
+    "tk_p": 20,
+    "kecamatan": "Ujung",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "PT. Karya Sejahtera 2",
+    "nama_pemilik": "Ari Pratama",
+    "produk": "Logam & Elektronika",
+    "tk_l": 13,
+    "tk_p": 8,
+    "kecamatan": "Bacukiki",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 12",
+    "nama_pemilik": "Dewi Hidayat",
+    "produk": "Kerajinan",
+    "tk_l": 17,
+    "tk_p": 4,
+    "kecamatan": "Bacukiki Barat",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 31",
+    "nama_pemilik": "Rahmad Rohmat",
+    "produk": "Sandang",
+    "tk_l": 3,
+    "tk_p": 3,
+    "kecamatan": "Ujung",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "CV. Sinar Abadi 38",
+    "nama_pemilik": "Dewi Hidayat",
+    "produk": "Sandang",
+    "tk_l": 19,
+    "tk_p": 1,
+    "kecamatan": "Bacukiki",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "CV. Sumber Rezeki 37",
+    "nama_pemilik": "Sari Sari",
+    "produk": "Logam & Elektronika",
+    "tk_l": 14,
+    "tk_p": 9,
+    "kecamatan": "Ujung",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "CV. Sumber Rezeki 13",
+    "nama_pemilik": "Budi Setiawan",
+    "produk": "Kerajinan",
+    "tk_l": 3,
+    "tk_p": 9,
+    "kecamatan": "Ujung",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "UD. Maju Jaya 24",
+    "nama_pemilik": "Joko Saputra",
+    "produk": "Logam & Elektronika",
+    "tk_l": 11,
+    "tk_p": 18,
+    "kecamatan": "Soreang",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "CV. Sinar Abadi 33",
+    "nama_pemilik": "Eka Sari",
+    "produk": "Sandang",
+    "tk_l": 19,
+    "tk_p": 5,
+    "kecamatan": "Soreang",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "CV. Sumber Rezeki 6",
+    "nama_pemilik": "Rina Wijaya",
+    "produk": "Kimia & Bahan Bangunan",
+    "tk_l": 20,
+    "tk_p": 4,
+    "kecamatan": "Soreang",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Maju Jaya 20",
+    "nama_pemilik": "Rina Putri",
+    "produk": "Sandang",
+    "tk_l": 16,
+    "tk_p": 0,
+    "kecamatan": "Bacukiki Barat",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "CV. Sinar Abadi 26",
+    "nama_pemilik": "Dewi Setiawan",
+    "produk": "Logam & Elektronika",
+    "tk_l": 4,
+    "tk_p": 11,
+    "kecamatan": "Ujung",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Maju Jaya 38",
+    "nama_pemilik": "Ahmad Putri",
+    "produk": "Pangan",
+    "tk_l": 9,
+    "tk_p": 11,
+    "kecamatan": "Soreang",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "UD. Maju Jaya 6",
+    "nama_pemilik": "Eka Pratama",
+    "produk": "Kerajinan",
+    "tk_l": 13,
+    "tk_p": 1,
+    "kecamatan": "Bacukiki Barat",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Maju Jaya 48",
+    "nama_pemilik": "Budi Yulianto",
+    "produk": "Sandang",
+    "tk_l": 16,
+    "tk_p": 19,
+    "kecamatan": "Soreang",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "CV. Sinar Abadi 26",
+    "nama_pemilik": "Sari Hidayat",
+    "produk": "Pangan",
+    "tk_l": 8,
+    "tk_p": 6,
+    "kecamatan": "Ujung",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Maju Jaya 11",
+    "nama_pemilik": "Joko Rohmat",
+    "produk": "Pangan",
+    "tk_l": 17,
+    "tk_p": 20,
+    "kecamatan": "Bacukiki",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 23",
+    "nama_pemilik": "Rina Sari",
+    "produk": "Pangan",
+    "tk_l": 13,
+    "tk_p": 18,
+    "kecamatan": "Ujung",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 31",
+    "nama_pemilik": "Rahmad Setiawan",
+    "produk": "Sandang",
+    "tk_l": 17,
+    "tk_p": 3,
+    "kecamatan": "Bacukiki Barat",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "CV. Sumber Rezeki 45",
+    "nama_pemilik": "Dewi Rohmat",
+    "produk": "Sandang",
+    "tk_l": 12,
+    "tk_p": 1,
+    "kecamatan": "Ujung",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "PT. Karya Sejahtera 6",
+    "nama_pemilik": "Budi Yulianto",
+    "produk": "Sandang",
+    "tk_l": 9,
+    "tk_p": 12,
+    "kecamatan": "Bacukiki Barat",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "UD. Maju Jaya 44",
+    "nama_pemilik": "Sari Wulandari",
+    "produk": "Kerajinan",
+    "tk_l": 7,
+    "tk_p": 17,
+    "kecamatan": "Ujung",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "PT. Karya Sejahtera 8",
+    "nama_pemilik": "Dewi Rohmat",
+    "produk": "Kerajinan",
+    "tk_l": 12,
+    "tk_p": 6,
+    "kecamatan": "Soreang",
+    "level": "Menengah"
+  },
+  {
+    "nama_usaha": "UD. Maju Jaya 50",
+    "nama_pemilik": "Ahmad Yulianto",
+    "produk": "Logam & Elektronika",
+    "tk_l": 4,
+    "tk_p": 13,
+    "kecamatan": "Ujung",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "UD. Mandiri 3",
+    "nama_pemilik": "Eka Rohmat",
+    "produk": "Pangan",
+    "tk_l": 9,
+    "tk_p": 5,
+    "kecamatan": "Bacukiki",
+    "level": "Kecil"
+  },
+  {
+    "nama_usaha": "CV. Sumber Rezeki 29",
+    "nama_pemilik": "Indah Yulianto",
+    "produk": "Sandang",
+    "tk_l": 13,
+    "tk_p": 8,
+    "kecamatan": "Bacukiki",
+    "level": "Menengah"
+  }
+]

@@ -1,0 +1,537 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-color: #083458;
+    --primary-dark: #062b48;
+    --secondary-color: #f49f1e;
+    --secondary-dark: #d88d13;
+    --link: #0671e0;
+    --hover-primary-color: #1a6eb4;
+    --hover-bg-color: #eaf4fd;
+    --login-bg-color: #cde2f5;
+    --login-hover-bg-color: #aacde6;
+    --text-white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+}
+.bg-primary {
+    background-color: var(--primary-color);
+}
+
+.bg-primary-dark {
+    background-color: var(--primary-dark);
+}
+
+.bg-secondary {
+    background-color: var(--secondary-color);
+}
+
+.bg-secondary-dark {
+    background-color: var(--secondary-dark);
+}
+
+.bg-primary {
+    background-color: var(--primary-color);
+}
+
+.bg-primary-dark:hover {
+    background-color: var(--primary-dark);
+}
+
+.bg-secondary {
+    background-color: var(--secondary-color);
+}
+
+.bg-secondary-dark:hover {
+    background-color: var(--secondary-dark);
+}
+
+
+.text-link {
+    color: var(--link);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1000;
+}
+
+.navbar-left .logo {
+    height: 40px;
+}
+
+.navbar-center {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.navbar-center .nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-center .nav-menu li {
+    position: relative;
+}
+
+.navbar-center .nav-menu li a {
+    color: var(--text-white);
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.navbar-center .nav-menu li a:hover {
+    background-color: var(--hover-bg-color);
+    color: var(--primary-color);
+    border-radius: 5px;
+}
+
+/* Dropdown */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--hover-bg-color);
+    list-style: none;
+    padding: 10px 0;
+    min-width: 220px;
+    display: none;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: flex;
+}
+
+.dropdown-menu li a,
+.dropdown-menu li strong {
+    color: var(--primary-color);
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    transition: 0.3s ease;
+}
+
+.dropdown-menu li a:hover,
+.dropdown-menu li strong:hover {
+    color: var(--hover-primary-color);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
+/* Submenu */
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu:hover .submenu {
+    display: flex;
+}
+
+.submenu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: var(--hover-bg-color);
+    list-style: none;
+    padding: 10px 0;
+    min-width: 245px;
+    display: none;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.submenu li a,
+.submenu li strong {
+    color: var(--primary-color);
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    transition: 0.3s ease;
+}
+
+.submenu li a:hover,
+.submenu li strong:hover {
+    color: var(--hover-primary-color);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
+/* Login Button */
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right .btn-login {
+    background-color: var(--login-bg-color);
+    color: var(--primary-color);
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.navbar-right .btn-login:hover {
+    background-color: var(--login-hover-bg-color);
+}
+
+/* RESPONSIVE AREA */
+@media (max-width: 992px) {
+    .navbar-center .nav-menu {
+        gap: 15px;
+    }
+
+    .navbar-center .nav-menu li a {
+        font-size: 13px;
+        padding: 6px 10px;
+    }
+
+    .navbar-right .btn-login {
+        padding: 6px 12px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .navbar-center {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .navbar-center .nav-menu {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .navbar-center .nav-menu li {
+        width: 100%;
+    }
+
+    .navbar-center .nav-menu li a {
+        width: 100%;
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .dropdown-menu,
+    .submenu {
+        position: relative;
+        top: auto;
+        left: auto;
+        min-width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .dropdown:hover .dropdown-menu,
+    .dropdown-submenu:hover .submenu {
+        display: flex;
+    }
+
+    .navbar-right {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .navbar-right .btn-login {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-center .nav-menu li a {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+
+    .navbar-right .btn-login {
+        font-size: 13px;
+        padding: 6px 10px;
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1000;
+}
+
+.navbar-left .logo {
+    height: 40px;
+}
+
+.navbar-center {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.navbar-center .nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-center .nav-menu li {
+    position: relative;
+}
+
+.navbar-center .nav-menu li a {
+    color: var(--text-white);
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.navbar-center .nav-menu li a:hover {
+    background-color: var(--hover-bg-color);
+    color: var(--primary-color);
+    border-radius: 5px;
+}
+
+/* Dropdown */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--hover-bg-color);
+    list-style: none;
+    padding: 10px 0;
+    min-width: 220px;
+    display: none;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: flex;
+}
+
+.dropdown-menu li a,
+.dropdown-menu li strong {
+    color: var(--primary-color);
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    transition: 0.3s ease;
+}
+
+.dropdown-menu li a:hover,
+.dropdown-menu li strong:hover {
+    color: var(--hover-primary-color);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
+/* Submenu */
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu:hover .submenu {
+    display: flex;
+}
+
+.submenu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: var(--hover-bg-color);
+    list-style: none;
+    padding: 10px 0;
+    min-width: 245px;
+    display: none;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.submenu li a,
+.submenu li strong {
+    color: var(--primary-color);
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    transition: 0.3s ease;
+}
+
+.submenu li a:hover,
+.submenu li strong:hover {
+    color: var(--hover-primary-color);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
+/* Login Button */
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right .btn-login {
+    background-color: var(--login-bg-color);
+    color: var(--primary-color);
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.navbar-right .btn-login:hover {
+    background-color: var(--login-hover-bg-color);
+}
+
+/* RESPONSIVE AREA */
+@media (max-width: 992px) {
+    .navbar-center .nav-menu {
+        gap: 15px;
+    }
+
+    .navbar-center .nav-menu li a {
+        font-size: 13px;
+        padding: 6px 10px;
+    }
+
+    .navbar-right .btn-login {
+        padding: 6px 12px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .navbar-center {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .navbar-center .nav-menu {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .navbar-center .nav-menu li {
+        width: 100%;
+    }
+
+    .navbar-center .nav-menu li a {
+        width: 100%;
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .dropdown-menu,
+    .submenu {
+        position: relative;
+        top: auto;
+        left: auto;
+        min-width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .dropdown:hover .dropdown-menu,
+    .dropdown-submenu:hover .submenu {
+        display: flex;
+    }
+
+    .navbar-right {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .navbar-right .btn-login {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-center .nav-menu li a {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+
+    .navbar-right .btn-login {
+        font-size: 13px;
+        padding: 6px 10px;
+    }
+}
+/* Class untuk menyembunyikan scrollbar di semua browser utama */
+.scrollbar-hide {
+  -ms-overflow-style: none;     /* IE and Edge */
+  scrollbar-width: none;        /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;                /* Chrome, Safari, Opera */
+}
+
+.no-spinner::-webkit-inner-spin-button,
+.no-spinner::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.no-spinner {
+  -moz-appearance: textfield; /* Firefox */
+}

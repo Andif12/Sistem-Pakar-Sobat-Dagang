@@ -1,0 +1,684 @@
+{
+    "kabupaten": [
+        {
+            "name": "Kota Parepare",
+            "type": "Kabupaten",
+            "kecamatan": [
+                {
+                    "name": "Bacukiki",
+                    "kelurahan": [
+                        "Lompoe",
+                        "WT. Bacukiki",
+                        "Lemoe",
+                        "Galung Maloang"
+                    ]
+                },
+                {
+                    "name": "Ujung",
+                    "kelurahan": [
+                        "Labukkang",
+                        "Ujung Sabbang",
+                        "Ujung Bulu",
+                        "Lapadde",
+                        "Mallusetasi"
+                    ]
+                },
+                {
+                    "name": "Soreang",
+                    "kelurahan": [
+                        "Lakessi",
+                        "Ujung Baru",
+                        "Watang Soreang",
+                        "Kampung Pisang",
+                        "Ujung Lare",
+                        "Bukit Indah",
+                        "Bukit Harapan"
+                    ]
+                },
+                {
+                    "name": "Bacukiki Barat",
+                    "kelurahan": [
+                        "Kampung Baru",
+                        "Cappa Galung",
+                        "Lumpue",
+                        "Tiro Sompe",
+                        "Sumpang Minangae",
+                        "Bumi Harapan"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Kabupaten Pinrang",
+            "type": "Kabupaten",
+            "kecamatan": [
+                {
+                    "name": "Matirro Sompe",
+                    "kelurahan": [
+                        "Langnga",
+                        "Pallameang",
+                        "Massulowalie",
+                        "Mattombong",
+                        "Mattongang Tongang",
+                        "Patobong",
+                        "Samaenre",
+                        "Mattirotasi",
+                        "Siwolong Polong"
+                    ]
+                },
+                {
+                    "name": "Suppa",
+                    "kelurahan": [
+                        "Watang Suppa",
+                        "Tellumpanua",
+                        "Lero",
+                        "Watang Pulu",
+                        "Maritengngae",
+                        "Tasiwalie",
+                        "Wiringtasi",
+                        "Lotang Salo",
+                        "Ujung Labuang",
+                        "Polewali"
+                    ]
+                },
+                {
+                    "name": "Mattiro Bulu",
+                    "kelurahan": [
+                        "Manarang",
+                        "Padaidi",
+                        "Pananrang",
+                        "Padakkalawa",
+                        "Marannu",
+                        "Alitta",
+                        "Padaelo",
+                        "Bunga",
+                        "Makkawaru"
+                    ]
+                },
+                {
+                    "name": "Watang Sawito",
+                    "kelurahan": [
+                        "Jaya",
+                        "Sawito",
+                        "Maccoralaie",
+                        "Penrang",
+                        "Salo",
+                        "Bentengnge",
+                        "Sipatokkong",
+                        "Siparappe"
+                    ]
+                },
+                {
+                    "name": "Patampanua",
+                    "kelurahan": [
+                        "Benteng",
+                        "Teppo",
+                        "Tonyamang",
+                        "Maccirinna",
+                        "Leppangang",
+                        "Malimpung",
+                        "Mattiroade",
+                        "Sipatuo",
+                        "Padangloang",
+                        "Pincara",
+                        "Masolo"
+                    ]
+                },
+                {
+                    "name": "Duampanua",
+                    "kelurahan": [
+                        "Pekkabata",
+                        "Tatae",
+                        "Lampa",
+                        "Data",
+                        "Bittoeng",
+                        "Kaballangan",
+                        "Paria",
+                        "Kaliang",
+                        "Battusawe",
+                        "Maroneng",
+                        "Katomporang",
+                        "Bungi",
+                        "Massewae",
+                        "Bababinanga",
+                        "Barugae"
+                    ]
+                },
+                {
+                    "name": "Lembang",
+                    "kelurahan": [
+                        "Taddokong",
+                        "Betteng",
+                        "Binanga Karaeng",
+                        "Rajang",
+                        "Letta",
+                        "Ulusaddang",
+                        "Suppirang",
+                        "Basseang",
+                        "Kariango",
+                        "Benteng Paremba",
+                        "Pakeng",
+                        "Lembang Mesakada",
+                        "Sali Sali",
+                        "Sabbang Paru",
+                        "Bakaru",
+                        "Pangaparang"
+                    ]
+                },
+                {
+                    "name": "Cempa",
+                    "kelurahan": [
+                        "Cempa",
+                        "Mangki",
+                        "Matunru Tunrue",
+                        "Sikkuale",
+                        "Tadangpalie",
+                        "Salipolo",
+                        "Tanra Tuo"
+                    ]
+                },
+                {
+                    "name": "Tiroang",
+                    "kelurahan": [
+                        "Pammase",
+                        "Marawi",
+                        "Pakkie",
+                        "Tiroang",
+                        "Mattiro Deceng"
+                    ]
+                },
+                {
+                    "name": "Lansirang",
+                    "kelurahan": [
+                        "Lansirang",
+                        "Samaulue",
+                        "Mallongi-longi",
+                        "Amassangeng",
+                        "Barang Palie",
+                        "Waetuoe",
+                        "Lerang"
+                    ]
+                },
+                {
+                    "name": "Paleteang",
+                    "kelurahan": [
+                        "Pacongang",
+                        "Macinnae",
+                        "Temmassarangnge",
+                        "Mamminasae",
+                        "Laleng Bata",
+                        "Benteng Sawito"
+                    ]
+                },
+                {
+                    "name": "Batu Lappa",
+                    "kelurahan": [
+                        "Kassa",
+                        "Batu Lappa",
+                        "Tapporang",
+                        "Kaseralau",
+                        "Watang Kassa"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Kabupaten Enrekang",
+            "type": "Kabupaten",
+            "kecamatan": [
+                {
+                    "name": "Maiwa",
+                    "kelurahan": [
+                        "Bangkala",
+                        "Patondon Salu",
+                        "Tuncung",
+                        "Pasang",
+                        "Salodua",
+                        "Batu Mila",
+                        "Puncak Harapan",
+                        "Palakka",
+                        "Tapong",
+                        "Mangkawani",
+                        "Botto Malangga",
+                        "Boiya",
+                        "Matajang",
+                        "Baringin",
+                        "Lebani",
+                        "Limbuang",
+                        "Paladang",
+                        "Pariwang",
+                        "Kaluppang",
+                        "Ongko",
+                        "Tanete",
+                        "Labuku"
+                    ]
+                },
+                {
+                    "name": "Enrekang",
+                    "kelurahan": [
+                        "Galonta",
+                        "Juppandang",
+                        "Puserren",
+                        "Lewaja",
+                        "Leoran",
+                        "Tuara",
+                        "Ranga",
+                        "Buttu Batu",
+                        "Tokkonan",
+                        "Karueng",
+                        "Tallu Bamba",
+                        "Tungka",
+                        "Kaluppini",
+                        "Tobalu",
+                        "Cemba",
+                        "Temban",
+                        "Rosoan",
+                        "Lembang"
+                    ]
+                },
+                {
+                    "name": "Baraka",
+                    "kelurahan": [
+                        "Baraka",
+                        "Tomenawa",
+                        "Balla",
+                        "Banti",
+                        "Bontongan",
+                        "Salukanan",
+                        "Parinding",
+                        "Tirowali",
+                        "Pepandungan",
+                        "Kendenan",
+                        "Parangian",
+                        "Janggurara",
+                        "Kadingeh",
+                        "Bonebone",
+                        "Pandung Batu"
+                    ]
+                },
+                {
+                    "name": "Anggeraja",
+                    "kelurahan": [
+                        "Lakawan",
+                        "Tanete",
+                        "Mataran",
+                        "Bamba Puang",
+                        "Siambo",
+                        "Mampu",
+                        "Pekalobean",
+                        "Singki",
+                        "Salu Dewata",
+                        "Tindalun",
+                        "Bubun Lamba",
+                        "Tampo",
+                        "Batunoni",
+                        "Saruran",
+                        "Mendatte"
+                    ]
+                },
+                {
+                    "name": "Alla",
+                    "kelurahan": [
+                        "Kambiolangi",
+                        "Kalosi",
+                        "Buntu Sugi",
+                        "Mata Allo",
+                        "Sumillan",
+                        "Pana",
+                        "Taulo",
+                        "Bolang"
+                    ]
+                },
+                {
+                    "name": "Bungin",
+                    "kelurahan": [
+                        "Bungin",
+                        "Talang Rilau",
+                        "Baruka",
+                        "Sawito",
+                        "Bulo",
+                        "Banua"
+                    ]
+                },
+                {
+                    "name": "Cendana",
+                    "kelurahan": [
+                        "Cendana",
+                        "Taulan",
+                        "Pinang",
+                        "Malalin",
+                        "Karrang",
+                        "Lebang",
+                        "Pundi Lemo"
+                    ]
+                },
+                {
+                    "name": "Curio",
+                    "kelurahan": [
+                        "Senglepopongan",
+                        "Buntu Barana",
+                        "Buntu Pema",
+                        "Parombean",
+                        "Tallung Ura",
+                        "Pebaloran",
+                        "Curio",
+                        "Mekkala",
+                        "Sumbang",
+                        "Mandalan",
+                        "Salassa"
+                    ]
+                },
+                {
+                    "name": "Malua",
+                    "kelurahan": [
+                        "Malua",
+                        "Bonto",
+                        "Tallung Tondok",
+                        "Rante Mario",
+                        "Tangru",
+                        "Kolai",
+                        "Dulang",
+                        "Buntu Batuan"
+                    ]
+                },
+                {
+                    "name": "Buntu Batu",
+                    "kelurahan": [
+                        "Pasui",
+                        "Eran Batu",
+                        "Latimojong",
+                        "Buntu Mondong",
+                        "Ledan",
+                        "Lunjen",
+                        "Langda",
+                        "Potok Ulin"
+                    ]
+                },
+                {
+                    "name": "Masalle",
+                    "kelurahan": [
+                        "Masalle",
+                        "Batu Ke'de",
+                        "Mundan",
+                        "Buntu Sarong",
+                        "Rampunan",
+                        "Tongkonan Basse"
+                    ]
+                },
+                {
+                    "name": "Baroko",
+                    "kelurahan": [
+                        "Baroko",
+                        "Benteng Ala",
+                        "Benteng Alla Utara",
+                        "Tongko",
+                        "Patongloan"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Kabupaten Sidenreng Rappang",
+            "type": "Kabupaten",
+            "kecamatan": [
+                {
+                    "name": "Panca Lautan",
+                    "kelurahan": [
+                        "Bilokka",
+                        "Wetee",
+                        "Lajonga",
+                        "Wanio",
+                        "Wanio Timoreng",
+                        "Corawali",
+                        "Lise",
+                        "Bapangi",
+                        "Alessalewo",
+                        "Cenrana"
+                    ]
+                },
+                {
+                    "name": "Tellu Limpoe",
+                    "kelurahan": [
+                        "Amparita",
+                        "Messape",
+                        "Toddang Pulu",
+                        "Pajalele",
+                        "Baula",
+                        "Arateng",
+                        "Teteaji",
+                        "Polewali",
+                        "Teppo"
+                    ]
+                },
+                {
+                    "name": "Watang Pulu",
+                    "kelurahan": [
+                        "Lawawoi",
+                        "Arawa",
+                        "Bangkai",
+                        "Uluale",
+                        "Batu Lappa",
+                        "Lainungan",
+                        "Carawali",
+                        "Buae",
+                        "Mattirotasi",
+                        "Ciro-Ciroe"
+                    ]
+                },
+                {
+                    "name": "Baranti",
+                    "kelurahan": [
+                        "Baranti",
+                        "Duampanua",
+                        "Benteng",
+                        "Mamminasae",
+                        "Benteng Utama",
+                        "Passeno",
+                        "Sipodeceng",
+                        "Tonrongnge",
+                        "Tonrong Rijang"
+                    ]
+                },
+                {
+                    "name": "Panca Rijang",
+                    "kelurahan": [
+                        "Rappang",
+                        "Lelebata",
+                        "Maccorawalie",
+                        "Kadidi",
+                        "Timoreng Panua",
+                        "Bulowattang",
+                        "Bulo",
+                        "Cipotakari"
+                    ]
+                },
+                {
+                    "name": "Kulo",
+                    "kelurahan": [
+                        "Rijang Panua",
+                        "Kulo",
+                        "Maddenra",
+                        "Mario",
+                        "Kampung Baru",
+                        "Abbokongeng"
+                    ]
+                },
+                {
+                    "name": "Maritengngae",
+                    "kelurahan": [
+                        "Pangkajene",
+                        "Lautang Benteng",
+                        "Majjelling",
+                        "Wala",
+                        "Lekessi",
+                        "Rijang Pitu",
+                        "Majjelling Watang",
+                        "Sereang",
+                        "Kanie",
+                        "Allakuang",
+                        "Tanete",
+                        "Tekkalasi"
+                    ]
+                },
+                {
+                    "name": "WT. Sidenreng",
+                    "kelurahan": [
+                        "Empagae",
+                        "Watang Sidenreng",
+                        "Kanyuara",
+                        "Mojong",
+                        "Damai",
+                        "Talumae",
+                        "Aka Akae",
+                        "Talawe"
+                    ]
+                },
+                {
+                    "name": "Dua Pitue",
+                    "kelurahan": [
+                        "Tanru Tedong",
+                        "Salomalori",
+                        "Kalosi",
+                        "Padangloang",
+                        "Kalosi Alau",
+                        "Bila",
+                        "Padangloang Alau",
+                        "Salobukkang",
+                        "Taccimpo",
+                        "Kampale"
+                    ]
+                },
+                {
+                    "name": "Pitu Riawa",
+                    "kelurahan": [
+                        "Lancirang",
+                        "Ponrengae",
+                        "Ajubissue",
+                        "Otting",
+                        "Bulucenrana",
+                        "Betao",
+                        "Anabannae",
+                        "Betao Riase",
+                        "Dongi",
+                        "Lasiwala",
+                        "Sumpangmango",
+                        "Kalempang"
+                    ]
+                },
+                {
+                    "name": "Pitu Raise",
+                    "kelurahan": [
+                        "Batu",
+                        "Compong",
+                        "Belawae",
+                        "Botto",
+                        "Bila Riase",
+                        "Bola Bulu",
+                        "Tanatoro",
+                        "Lombo",
+                        "Lagading",
+                        "Dengeng Dengeng",
+                        "Buntu Buanging",
+                        "Lepangeng"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Kabupaten Barru",
+            "type": "Kabupaten",
+            "kecamatan": [
+                {
+                    "name": "Tanete Riaja",
+                    "kelurahan": [
+                        "Lompo Riaja",
+                        "Harapan",
+                        "Lompo Tengah",
+                        "Kading",
+                        "Libureng",
+                        "Mattirowalie",
+                        "Lempang"
+                    ]
+                },
+                {
+                    "name": "Tanete Rilau",
+                    "kelurahan": [
+                        "Lalolang",
+                        "Tanete",
+                        "Pancana",
+                        "Lalabata",
+                        "Corawali",
+                        "Pao Pao",
+                        "Tellumpanua",
+                        "Lipukasi",
+                        "Garessi",
+                        "Lasitae"
+                    ]
+                },
+                {
+                    "name": "Barru",
+                    "kelurahan": [
+                        "Coppo",
+                        "Mangempang",
+                        "Sumpang Binangae",
+                        "Sepee",
+                        "Tuwung",
+                        "Palakka",
+                        "Tompo",
+                        "Anabanua",
+                        "Galung",
+                        "Siawung"
+                    ]
+                },
+                {
+                    "name": "Soppeng Riaja",
+                    "kelurahan": [
+                        "Kiru Kiru",
+                        "Mangkoso",
+                        "Lawallu",
+                        "Paccekke",
+                        "Ajakkang",
+                        "Siddo",
+                        "Batupute"
+                    ]
+                },
+                {
+                    "name": "Mallusetasi",
+                    "kelurahan": [
+                        "Palanro",
+                        "Mallawa",
+                        "Bojo Baru",
+                        "Cilellang",
+                        "Manuba",
+                        "Nepo",
+                        "Kupa",
+                        "Bojo"
+                    ]
+                },
+                {
+                    "name": "Pujananting",
+                    "kelurahan": [
+                        "Mattappawalie",
+                        "Pujananting",
+                        "Gattareng",
+                        "Pattappa",
+                        "Jangan Jangan",
+                        "Bulo Bulo",
+                        "Bacu Bacu"
+                    ]
+                },
+                {
+                    "name": "Balusu",
+                    "kelurahan": [
+                        "Takkalasi",
+                        "Balusu",
+                        "Lampoko",
+                        "Kamiri",
+                        "Madello",
+                        "Binuang"
+                    ]
+                }
+            ]
+        }
+    ]
+}
