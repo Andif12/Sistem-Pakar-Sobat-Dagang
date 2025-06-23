@@ -63,7 +63,6 @@ class RekomendasiController extends Controller
                 ->orderByDesc('tanggal')
                 ->first();
 
-
                 if (!$stok) continue;
 
                 $tahun = Carbon::parse($tanggalTerbaru)->year;

@@ -85,17 +85,21 @@
                 @endif
             </nav>
         </div>
-        <div class="py-6 flex flex-wrap items-center gap-4">
+        <div class="flex flex-wrap items-center gap-4 py-6">
             <a href="{{ route('pelaporan.showInputForm') }}">
                 <p class="px-6 py-3 text-sm font-bold font-istok rounded-xl text-white bg-[#083458] w-fit">
                     Tambahkan Data untuk Toko
                 </p>
             </a>
-
+            <a href="{{ route('pelaporan.rekomendasi') }}">
+                <p class="px-6 py-3 text-sm font-bold font-istok rounded-xl text-white bg-[#fe7c02] w-fit">
+                    Cek Rekomendasi Distribusi
+                </p>
+            </a>
             <button 
                 data-modal-target="modalPengaduan" 
                 data-modal-toggle="modalPengaduan"
-                class="px-6 py-3 text-sm font-bold font-istok rounded-xl text-white bg-red-600 w-fit"
+                class="px-6 py-3 text-sm font-bold text-white bg-red-600 font-istok rounded-xl w-fit"
             >
                 Pengaduan Distributor
             </button>
@@ -104,29 +108,29 @@
 
 <div id="modalPengaduan" class="fixed inset-0 z-50 hidden overflow-y-auto bg-black/50">
   <div class="flex items-center justify-center min-h-screen px-4 py-6">
-    <div class="bg-white rounded-2xl shadow-lg w-full max-w-md p-6">
+    <div class="w-full max-w-md p-6 bg-white shadow-lg rounded-2xl">
       
-      <h2 class="text-lg font-bold mb-4 text-center text-gray-800">Formulir Pengaduan Distributor</h2>
+      <h2 class="mb-4 text-lg font-bold text-center text-gray-800">Formulir Pengaduan Distributor</h2>
       <form action="{{ route('pelaporan.pengaduan.store') }}" method="POST" class="space-y-4">
         @csrf
         
         <div>
           <label class="block text-sm font-medium text-gray-700">Nama Pengirim</label>
-          <input type="text" class="w-full border border-gray-300 p-2 rounded-xl bg-gray-100" value="{{ ucwords(auth()->guard('user')->user()->nama) }}" readonly>
+          <input type="text" class="w-full p-2 bg-gray-100 border border-gray-300 rounded-xl" value="{{ ucwords(auth()->guard('user')->user()->nama) }}" readonly>
         </div>
 
         <div>
           <label class="block text-sm font-medium text-gray-700">Judul Pengaduan</label>
-          <input type="text" name="judul" class="w-full border border-gray-300 p-2 rounded-xl" required>
+          <input type="text" name="judul" class="w-full p-2 border border-gray-300 rounded-xl" required>
         </div>
 
         <div>
           <label class="block text-sm font-medium text-gray-700">Isi Pengaduan</label>
-          <textarea name="isi" rows="4" class="w-full border border-gray-300 p-2 rounded-xl" required></textarea>
+          <textarea name="isi" rows="4" class="w-full p-2 border border-gray-300 rounded-xl" required></textarea>
         </div>
 
         <div class="flex justify-end gap-3 pt-2">
-          <button type="button" onclick="document.getElementById('modalPengaduan').classList.add('hidden')" class="px-5 py-2 bg-gray-300 text-gray-700 rounded-full hover:bg-gray-400 transition">
+          <button type="button" onclick="document.getElementById('modalPengaduan').classList.add('hidden')" class="px-5 py-2 text-gray-700 transition bg-gray-300 rounded-full hover:bg-gray-400">
             Batal
           </button>
           <button type="submit" class="px-5 py-2 bg-[#083458]  text-white rounded-full hover:bg-blue-300 hover:text-black transition">
@@ -140,16 +144,16 @@
 </div>
 
 @if(session('success'))
-<div id="modalSukses" class="fixed inset-0 z-50 flex items-center justify-center bg-black/50 px-4 sm:px-6">
-  <div class="bg-white relative rounded-2xl shadow-xl w-full max-w-sm sm:max-w-md md:max-w-lg p-6 sm:p-8 text-center">
+<div id="modalSukses" class="fixed inset-0 z-50 flex items-center justify-center px-4 bg-black/50 sm:px-6">
+  <div class="relative w-full max-w-sm p-6 text-center bg-white shadow-xl rounded-2xl sm:max-w-md md:max-w-lg sm:p-8">
 
     <button onclick="document.getElementById('modalSukses').classList.add('hidden')" 
-      class="absolute top-3 right-3 text-gray-500 hover:text-gray-700 text-xl font-bold focus:outline-none">
+      class="absolute text-xl font-bold text-gray-500 top-3 right-3 hover:text-gray-700 focus:outline-none">
       &times;
     </button>
 
-    <h2 class="text-lg sm:text-xl font-bold text-green-600 mb-2">Berhasil!</h2>
-    <p class="text-sm sm:text-base text-gray-700 mb-2">{{ session('success') }}</p>
+    <h2 class="mb-2 text-lg font-bold text-green-600 sm:text-xl">Berhasil!</h2>
+    <p class="mb-2 text-sm text-gray-700 sm:text-base">{{ session('success') }}</p>
 
   </div>
 </div>

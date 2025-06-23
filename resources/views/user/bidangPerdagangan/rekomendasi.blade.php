@@ -18,20 +18,20 @@
     </div>
 
     @isset($error)
-        <div class="bg-yellow-100 text-yellow-800 border-l-4 border-yellow-500 p-4 rounded mb-6">
+        <div class="p-4 mb-6 text-yellow-800 bg-yellow-100 border-l-4 border-yellow-500 rounded">
             {{ $error }}
         </div>
     @endisset
 
     @isset($tanggalTerbaru)
-        <div class="bg-blue-50 text-blue-800 border-l-4 border-blue-500 p-4 rounded mb-6">
+        <div class="p-4 mb-6 text-blue-800 border-l-4 border-blue-500 rounded bg-blue-50">
             <strong>Tanggal Data Terbaru:</strong> {{ \Carbon\Carbon::parse($tanggalTerbaru)->translatedFormat('d F Y') }}
         </div>
     @endisset
 
     @if(!empty($results))
         <div class="overflow-x-auto bg-white rounded shadow ring-1 ring-gray-200">
-            <table class="min-w-full divide-y divide-gray-200 text-semibold text-center">
+            <table class="min-w-full text-center divide-y divide-gray-200 text-semibold">
                 <thead class="bg-[#083458] text-white text-sm uppercase tracking-wider">
                     <tr>
                         <th class="px-6 py-4">Nama Toko</th>
@@ -69,7 +69,7 @@
             </table>
         </div>
     @else
-        <div class="text-center mt-10 text-gray-500 text-lg">
+        <div class="mt-10 text-lg text-center text-gray-500">
             Tidak ada hasil rekomendasi untuk saat ini.
         </div>
     @endif

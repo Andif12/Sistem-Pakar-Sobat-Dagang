@@ -127,9 +127,8 @@ Route::middleware(['auth.role:user'])->group(function () {
     Route::get('/bidang-perdagangan/riwayat-surat', [dashboardPerdaganganController::class, 'riwayatSurat'])->name('bidangPerdagangan.riwayatSurat');
     Route::post('/bidang-perdagangan/ajukan-permohonan', [dashboardPerdaganganController::class, 'ajukanPermohonan'])->name('ajukanPermohonan_perdagangan');
 
-    // Route::get('/rekomendasi/view', [RekomendasiController::class, 'formView']);
-    // Route::post('/rekomendasi/hitung', [RekomendasiController::class, 'hitungRekomendasi']);
-    Route::get('/rekomendasi/view', [RekomendasiController::class, 'tampilOtomatis']);
+    Route::get('/pelaporan/rekomendasi/view', [RekomendasiController::class, 'tampilOtomatis'])->name('pelaporan.rekomendasi');
+
     // Metrologi
     Route::get('/administrasi-metrologi', [PersuratanController::class, 'showAdministrasiMetrologi'])->name('administrasi-metrologi');
     Route::post('/store-surat', [PersuratanController::class, 'storeSuratMetrologi'])->name('proses-surat-metrologi');
