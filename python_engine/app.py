@@ -14,12 +14,15 @@ def index():
 @app.route('/rekomendasi', methods=['POST'])
 def rekomendasi():
     data = request.get_json()
-    stok_awal = data['stok_awal']
-    stok_akhir = data['stok_akhir']
-    realisasi = data['realisasi']
+
+    stok_awal = data.get('stok_awal', 0)
+    stok_akhir = data.get('stok_akhir', stok_awal - data.get('realisasi', 0))
+    realisasi = data.get('realisasi', 0)
 
     pemakaian = stok_awal - stok_akhir
     klasifikasi = ''
+    
+    # Rekomendasi awal
     rekomendasi = 0
 
     if pemakaian >= 0.8 * stok_awal:
@@ -30,10 +33,10 @@ def rekomendasi():
         rekomendasi = stok_awal
     else:
         klasifikasi = 'Konsumsi Rendah'
-        rekomendasi = pemakaian
+        rekomendasi = max(1, pemakaian)  # agar minimal tetap ada output
 
     return jsonify({
-        'rekomendasi': rekomendasi,
+        'rekomendasi': int(rekomendasi),
         'klasifikasi': klasifikasi
     })
 
