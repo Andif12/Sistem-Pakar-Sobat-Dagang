@@ -24,6 +24,7 @@ class RekomendasiController extends Controller
         $user = Auth::guard('user')->user();
         $userId = $user->id_user;
 
+        // Ambil data distributor berdasarkan user login
         $distributor = Distributor::where('id_user', $userId)->first();
 
         if (!$distributor) {
@@ -43,29 +44,30 @@ class RekomendasiController extends Controller
             ]);
         }
 
-        $tokoIds = StokOpname::pluck('id_toko')->unique();
+        // Ambil id_toko hanya untuk toko milik distributor yang login
+        $tokoIds = Toko::where('id_distributor', $distributor->id_distributor)
+            ->pluck('id_toko');
 
         foreach ($tokoIds as $idToko) {
-            $toko = Toko::where('id_toko', $idToko)->first();
+            $toko = Toko::find($idToko);
 
             if (!$toko) {
-                continue; 
+                continue;
             }
 
             $barangList = StokOpname::where('id_toko', $idToko)
                 ->pluck('nama_barang')
                 ->unique();
 
-
             foreach ($barangList as $namaBarang) {
                 $stok = StokOpname::where('id_toko', $idToko)
-                ->where('nama_barang', $namaBarang)
-                ->orderByDesc('tanggal')
-                ->first();
+                    ->where('nama_barang', $namaBarang)
+                    ->orderByDesc('tanggal')
+                    ->first();
 
                 if (!$stok) continue;
 
-                $tahun = Carbon::parse($tanggalTerbaru)->year;
+                $tahun = \Carbon\Carbon::parse($tanggalTerbaru)->year;
 
                 $rencana = RencanaKebutuhanDistributor::whereYear('tahun', $tahun)
                     ->orderByDesc('jumlah')
@@ -80,14 +82,16 @@ class RekomendasiController extends Controller
 
                 $realisasi = ($total_penyaluran / max($rencana->jumlah, 1)) * 100;
 
-                // Kirim data ke Flask untuk diproses
-                $response = Http::post('http://127.0.0.1:5000/rekomendasi', [
+                // Kirim data ke Flask
+                $response = \Illuminate\Support\Facades\Http::post('http://127.0.0.1:5000/rekomendasi', [
                     'stok_awal' => $stok->stok_awal,
                     'stok_akhir' => $stok->stok_akhir,
                     'realisasi' => $realisasi,
                 ]);
 
-                $data = $response->successful() ? $response->json() : ['rekomendasi' => 0, 'klasifikasi' => 'Tidak Terklasifikasi'];
+                $data = $response->successful()
+                    ? $response->json()
+                    : ['rekomendasi' => 0, 'klasifikasi' => 'Tidak Terklasifikasi'];
 
                 $results[] = [
                     'toko' => $toko->nama_toko,
