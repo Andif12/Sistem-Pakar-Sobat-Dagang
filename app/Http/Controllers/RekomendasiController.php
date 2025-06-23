@@ -193,7 +193,7 @@ class RekomendasiController extends Controller
                 $realisasi = ($total_penyaluran / max($rencana->jumlah, 1)) * 100;
 
                 // Kirim data ke Flask untuk diproses
-                $response = Http::post('http://127.0.0.1:5000/rekomendasi', [
+                $response = Http::post('http://127.0.0.1:8000/rekomendasi', [
                     'stok_awal' => $stok->stok_awal,
                     'stok_akhir' => $stok->stok_akhir,
                     'realisasi' => $realisasi,

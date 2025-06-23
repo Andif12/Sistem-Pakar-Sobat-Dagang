@@ -2,27 +2,27 @@
 @section('title', 'Rekomendasi Penyaluran Pupuk')
 
 @section('content')
-<div class="max-w-7xl mx-auto px-4 py-10">
-    <div class="text-center mb-8">
+<div class="px-4 py-10 mx-auto max-w-7xl">
+    <div class="mb-8 text-center">
         <h2 class="text-3xl font-bold text-[#083458] mb-2">Rekomendasi Penyaluran Minggu Depan</h2>
         <p class="text-gray-600">Berikut hasil rekomendasi penyaluran berdasarkan data konsumsi terkini.</p>
     </div>
 
     @isset($error)
-        <div class="bg-yellow-100 text-yellow-800 border-l-4 border-yellow-500 p-4 rounded mb-6">
+        <div class="p-4 mb-6 text-yellow-800 bg-yellow-100 border-l-4 border-yellow-500 rounded">
             {{ $error }}
         </div>
     @endisset
 
     @isset($tanggalTerbaru)
-        <div class="bg-blue-50 text-blue-800 border-l-4 border-blue-500 p-4 rounded mb-6">
+        <div class="p-4 mb-6 text-blue-800 border-l-4 border-blue-500 rounded bg-blue-50">
             <strong>Tanggal Data Terbaru:</strong> {{ \Carbon\Carbon::parse($tanggalTerbaru)->translatedFormat('d F Y') }}
         </div>
     @endisset
 
     @if(!empty($results))
         <div class="overflow-x-auto bg-white rounded shadow ring-1 ring-gray-200">
-            <table class="min-w-full divide-y divide-gray-200 text-semibold text-center">
+            <table class="min-w-full text-center divide-y divide-gray-200 text-semibold">
                 <thead class="bg-[#083458] text-white text-sm uppercase tracking-wider">
                     <tr>
                         <th class="px-6 py-4">Nama Toko</th>
@@ -33,11 +33,11 @@
                 </thead>
                 <tbody class="divide-y divide-gray-100">
                     @foreach($results as $row)
-                        <tr class="hover:bg-gray-50 transition">
+                        <tr class="transition hover:bg-gray-50">
                             <td class="px-6 py-4 text-gray-800 capitalize">{{ $row['toko'] }}</td>
                             <td class="px-6 py-4 text-gray-800">{{ $row['barang'] }}</td>
                             <td class="px-6 py-4">
-                                <span class="inline-block px-3 py-1 text-sm font-semibold bg-green-100 text-green-700 rounded-full">
+                                <span class="inline-block px-3 py-1 text-sm font-semibold text-green-700 bg-green-100 rounded-full">
                                     {{ $row['rekomendasi'] }}
                                 </span>
                             </td>
@@ -60,7 +60,7 @@
             </table>
         </div>
     @else
-        <div class="text-center mt-10 text-gray-500 text-lg">
+        <div class="mt-10 text-lg text-center text-gray-500">
             Tidak ada hasil rekomendasi untuk saat ini.
         </div>
     @endif
