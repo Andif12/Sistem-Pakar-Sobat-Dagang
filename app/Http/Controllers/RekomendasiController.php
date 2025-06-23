@@ -35,7 +35,11 @@ class RekomendasiController extends Controller
         }
 
         $results = [];
-        $tanggalTerbaru = optional(StokOpname::latest('tanggal')->first())->tanggal;
+        $tanggalTerbaru = optional(
+        StokOpname::where('id_distributor',$distributor->id_distributor)
+                        ->latest('tanggal')
+                        ->first()
+        )->tanggal;
 
         if (!$tanggalTerbaru) {
             return view('user.bidangPerdagangan.rekomendasi', [
